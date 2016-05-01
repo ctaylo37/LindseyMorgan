@@ -1,0 +1,141 @@
+//buttons
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.btn-md{
+  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+}
+
+.btn-lg{
+  padding: 0.8rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.btn-blue {
+  color: $paper;
+  background-color: $primary-blue;
+  border: solid 2px $primary-blue;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $paper;
+    background-color: darken($primary-blue, 10%);
+    border-color: darken($primary-blue, 10%);
+  }
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;;
+  }
+}
+
+.btn-green {
+  color: $paper;
+  background-color: $green;
+  border: solid 2px $green;
+
+  i{
+    padding-left: 12px;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $paper;
+    background-color: darken($green, 10%);
+    border-color: darken($green, 10%);
+  }
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;;
+  }
+}
+
+.btn-blue-hollow {
+  color: $primary-blue;
+  border: solid 2px $primary-blue;
+  margin-left: 12px;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $paper;
+    border: solid 2px $primary-blue;
+    background-color: $primary-blue;
+  }
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;;
+  }
+}
+
+.btn-hollow {
+  color: $paper;
+  border: solid 2px $paper;
+  margin-left: 12px;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $paper;
+    border: solid 2px darken($paper, 10%);
+    background-color: rgba(255,255,255,.3);
+  }
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;;
+  }
+}
+
+.btn-ghost{
+  border-radius: 4px;
+  color: $paper;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.7rem;
+  line-height: 1.1;
+  background-color: rgba(225,225,225,.2);
+
+  &:hover,
+  &:focus {
+    color: $paper;
+    background-color: rgba(225,225,225,.4);
+  }
+}
+
+.navbar-toggle{
+  border-radius: 4px;
+  color: $paper;
+  font-size: 0.7rem;
+  line-height: 1.1;
+  background-color: rgba(225,225,225,.2);
+  position: relative;
+  z-index: 2000;
+
+  &:hover,
+  &:focus {
+    color: $paper;
+    background-color: rgba(225,225,225,.4);
+  }
+
+  &:visited{
+    background-color: rgba(225,225,225,.2);
+  }
+}
+

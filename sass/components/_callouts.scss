@@ -1,0 +1,42 @@
+.callout{
+  background-color: $paper;
+  width: 100%;
+  float: left;
+  padding: 1.2rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: $dark-grey;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  vertical-align: middle;
+
+  &.border{
+    border: solid 6px $light-grey;
+
+    &:hover{
+      border: solid 6px $primary-blue;
+    }
+  }
+
+  &.grey{
+    background-color: $light-grey!important;
+  }
+
+  .strong{
+    color: $primary-blue;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+
+  &.text-center{
+    .icon{
+      display: block;
+      margin: 1rem auto;
+    }
+  }
+
+  @media(min-width: 992px){
+    margin-top: 0;
+  }
+}

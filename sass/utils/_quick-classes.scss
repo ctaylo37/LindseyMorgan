@@ -1,0 +1,44 @@
+.pad-sm{
+  padding: 1rem 0;
+
+  @media(min-width: 768px){
+    padding: 2rem 0;
+  }
+}
+
+.pad-md{
+  padding: 1.5rem 0;
+
+  @media(min-width: 768px){
+    padding: 3rem 0;
+  }
+}
+
+.pad-lg{
+  padding: 2rem 0;
+
+  @media(min-width: 768px){
+    padding: 4rem 0;
+  }
+}
+
+.pad-1{
+  padding: 1rem;
+}
+
+.bg-grey{
+  background-color: $light-grey;
+}
+
+.bdr-bottom{
+  border-bottom: solid 1px $light-grey;
+}
+
+.fa-check-circle{
+    color: $green!important;
+    padding-right: 6px;
+}
+
+.border{
+    border: solid 6px $light-grey;
+}
