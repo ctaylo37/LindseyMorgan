@@ -1,0 +1,10 @@
+.card{
+	background: $light-grey;
+	display: block;
+	padding: 10px;
+
+	.card-inner{
+		border: solid 1px $border;
+		padding: 24px;
+	}
+}

@@ -1,37 +1,46 @@
-.signup{
-  min-height: 240px;
-  background-image: url('../img/signup_bg.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+footer{
+	padding-bottom: 60px;
 
-  @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
-    background-image: url('../img/signup_bg@2x.png');
-  }
-}
+	.logo-break{
+		position: relative;
+		padding: 60px 0 10px 0;
 
-.footer{
-  background-color: $dark-grey;
+		img{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			z-index: 50;
+		}
 
-  p{
-    line-height: 1.7;
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: rgba(255,255,255,.5);
-  }
+		.break{
+			position: absolute;
+			z-index: 1;
+			top: 116px;
+			width: 100%;
+			display: block;
+			border-bottom: solid 1px $border;
+		}
+	}
 
-  a{
-    color: rgba(255,255,255,.5);
-    text-decoration: none!important;
-    font-weight: 400;
+	.contact-details{
+		padding-top: 24px;
+	}
 
-    &:hover{
-      color: $primary-blue;
-      text-decoration: none!important;
-    }
-  }
+	h3{
+		margin: 0;
+	}
 
-  svg{
-    opacity: 0.4;
-  }
+	address{
+		margin: 12px 0;
+	}
+
+	a{
+		color: $body;
+
+		&:hover{
+			text-decoration: none;
+			color: $dark-grey;
+		}
+	}
+
 }
