@@ -9314,7 +9314,7 @@ p, address {
 /* line 11, ../sass/base/_typography.scss */
 h1 {
   font-family: 'Merriweather', serif;
-  font-weight: 400;
+  font-weight: 100;
   text-transform: uppercase;
   color: #6e797f;
   font-size: 30px;
