@@ -9678,68 +9678,62 @@ footer a:hover {
   background: transparent;
   color: #6e797f;
 }
-@media (min-width: 768px) {
-  /* line 23, ../sass/components/_nav.scss */
-  #home-nav li.active a {
-    border-bottom: solid 3px #6e797f;
-  }
-}
 
-/* line 39, ../sass/components/_nav.scss */
+/* line 35, ../sass/components/_nav.scss */
 #logo-nav {
   font-family: 'Merriweather', serif;
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: -2px;
 }
-/* line 45, ../sass/components/_nav.scss */
+/* line 41, ../sass/components/_nav.scss */
 #logo-nav li a {
   color: #b1babf;
   padding: 24px 0px;
   border-radius: 0;
 }
-/* line 50, ../sass/components/_nav.scss */
+/* line 46, ../sass/components/_nav.scss */
 #logo-nav li a:hover {
   background: transparent;
   color: #6e797f;
   border: none;
 }
 @media (min-width: 768px) {
-  /* line 50, ../sass/components/_nav.scss */
+  /* line 46, ../sass/components/_nav.scss */
   #logo-nav li a:hover {
     border-bottom: solid 3px #6e797f;
   }
 }
 @media (min-width: 768px) {
-  /* line 45, ../sass/components/_nav.scss */
+  /* line 41, ../sass/components/_nav.scss */
   #logo-nav li a {
     padding: 50px 0;
   }
 }
-/* line 65, ../sass/components/_nav.scss */
+/* line 61, ../sass/components/_nav.scss */
 #logo-nav li.active a {
   background: transparent;
   color: #6e797f;
   border: none;
 }
-/* line 70, ../sass/components/_nav.scss */
+/* line 66, ../sass/components/_nav.scss */
 #logo-nav li.active a:hover {
   background: transparent;
   color: #6e797f;
 }
 @media (min-width: 768px) {
-  /* line 65, ../sass/components/_nav.scss */
+  /* line 61, ../sass/components/_nav.scss */
   #logo-nav li.active a {
     border-bottom: solid 3px #6e797f;
   }
 }
-/* line 80, ../sass/components/_nav.scss */
+/* line 76, ../sass/components/_nav.scss */
 #logo-nav li.logo {
   width: 4%;
   text-align: center;
 }
 
-/* line 86, ../sass/components/_nav.scss */
+/* line 82, ../sass/components/_nav.scss */
 .navbar-toggle {
   margin: 0;
 }
