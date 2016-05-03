@@ -1,27 +1,37 @@
-.btn-sketch{
-	background: $light-grey;
-	padding: 10px;
-	font-size: 16px;
-	color: $body;
+.btn{
 	border-radius: 0;
+}
+
+.btn-lg{
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.btn-sketch{
+	background-color: $paper;
+	color: $body;
+	border: solid 1px $border;
 
 	&:hover{
-		background: $body;
-		color: $paper;
-	}
-
-	.btn-sketch-inner{
+		background-color: $light-grey;
+		color: $body;
 		border: solid 1px $border;
-		padding: 10px;
-		text-align: center;
+	}
+}
 
-		&:hover{
-			border-color: $paper;
-		}
+.btn-primary, .btn-primary:focus{
+	background-color: $body;
+	color: $paper;
+	border-color: transparent;
+
+	&:hover{
+		background-color: $dark-grey;
+		color: $paper;
+		border-color: transparent;
 	}
 }
 
 .btn-social{
-	width: 66px;
-	margin-right: 6px;
+	width: 48px;
+	margin-right: 8px;
 }

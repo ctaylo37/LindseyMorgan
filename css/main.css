@@ -9291,7 +9291,7 @@ body {
 
 /* line 27, ../sass/base/_base.scss */
 a {
-  transition: all 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 
 /* line 31, ../sass/base/_base.scss */
@@ -9302,30 +9302,32 @@ img {
 /* line 1, ../sass/base/_typography.scss */
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* line 6, ../sass/base/_typography.scss */
 p, address {
   color: #b1babf;
   line-height: 1.5;
+  font-size: 1rem;
 }
 
-/* line 11, ../sass/base/_typography.scss */
+/* line 12, ../sass/base/_typography.scss */
 h1 {
   font-family: 'Merriweather', serif;
   font-weight: 100;
   text-transform: uppercase;
   color: #6e797f;
-  font-size: 30px;
+  font-size: 24px;
   position: relative;
+  letter-spacing: 2px;
 }
-/* line 19, ../sass/base/_typography.scss */
+/* line 21, ../sass/base/_typography.scss */
 h1.fancy {
   padding: 0 24px;
   display: inline-block;
 }
-/* line 23, ../sass/base/_typography.scss */
+/* line 25, ../sass/base/_typography.scss */
 h1.fancy::before {
   content: url("../img/fancy-left.svg");
   display: inline-block;
@@ -9335,7 +9337,7 @@ h1.fancy::before {
   left: 0;
   top: -3px;
 }
-/* line 33, ../sass/base/_typography.scss */
+/* line 35, ../sass/base/_typography.scss */
 h1.fancy::after {
   content: url("../img/fancy-right.svg");
   display: inline-block;
@@ -9346,23 +9348,23 @@ h1.fancy::after {
   top: -3px;
 }
 
-/* line 45, ../sass/base/_typography.scss */
+/* line 47, ../sass/base/_typography.scss */
 h2, h3 {
   font-family: 'Dawning of a New Day', cursive;
   color: #6e797f;
 }
 
-/* line 50, ../sass/base/_typography.scss */
+/* line 52, ../sass/base/_typography.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 54, ../sass/base/_typography.scss */
+/* line 56, ../sass/base/_typography.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 58, ../sass/base/_typography.scss */
+/* line 60, ../sass/base/_typography.scss */
 h4 {
   font-family: 'Merriweather', serif;
   font-weight: 100;
@@ -9371,52 +9373,36 @@ h4 {
   line-height: 2;
 }
 
-/* line 67, ../sass/base/_typography.scss */
+/* line 69, ../sass/base/_typography.scss */
 h1.light, h2.light, h3.light, h4.light {
   color: white;
 }
 
-/* line 72, ../sass/base/_typography.scss */
+/* line 74, ../sass/base/_typography.scss */
 blockquote {
   border-left: none;
 }
-/* line 76, ../sass/base/_typography.scss */
-blockquote.h4::after {
-  display: block;
-  text-align: center;
-  height: 12px;
-  background-image: url("../img/break.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-@media all and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 76, ../sass/base/_typography.scss */
-  blockquote.h4::after {
-    background-image: url("../img/break@2x.png");
-  }
-}
 
-/* line 92, ../sass/base/_typography.scss */
+/* line 78, ../sass/base/_typography.scss */
 .section-break {
   position: relative;
 }
-/* line 95, ../sass/base/_typography.scss */
+/* line 81, ../sass/base/_typography.scss */
 .section-break h1 {
   z-index: 50;
   background: white;
 }
-/* line 100, ../sass/base/_typography.scss */
+/* line 86, ../sass/base/_typography.scss */
 .section-break .break {
   position: absolute;
   z-index: 1;
-  top: 95px;
+  top: 86px;
   width: 100%;
   display: block;
   border-bottom: solid 1px #ced7e0;
 }
 
-/* line 110, ../sass/base/_typography.scss */
+/* line 96, ../sass/base/_typography.scss */
 .underline {
   display: block;
   padding: 12px 0;
@@ -9427,7 +9413,7 @@ blockquote.h4::after {
   background-size: contain;
 }
 @media all and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 110, ../sass/base/_typography.scss */
+  /* line 96, ../sass/base/_typography.scss */
   .underline {
     background-image: url("../img/underline@2x.png");
   }
@@ -9505,41 +9491,54 @@ footer a:hover {
 }
 
 /* line 1, ../sass/components/_buttons.scss */
-.btn-sketch {
-  background: #f9fafc;
-  padding: 10px;
-  font-size: 16px;
-  color: #b1babf;
+.btn {
   border-radius: 0;
 }
-/* line 8, ../sass/components/_buttons.scss */
-.btn-sketch:hover {
-  background: #b1babf;
-  color: white;
-}
-/* line 13, ../sass/components/_buttons.scss */
-.btn-sketch .btn-sketch-inner {
-  border: solid 1px #ced7e0;
-  padding: 10px;
-  text-align: center;
-}
-/* line 18, ../sass/components/_buttons.scss */
-.btn-sketch .btn-sketch-inner:hover {
-  border-color: white;
+
+/* line 5, ../sass/components/_buttons.scss */
+.btn-lg, .btn-group-lg > .btn {
+  font-size: 14px;
+  line-height: 26px;
 }
 
-/* line 24, ../sass/components/_buttons.scss */
+/* line 10, ../sass/components/_buttons.scss */
+.btn-sketch {
+  background-color: white;
+  color: #b1babf;
+  border: solid 1px #ced7e0;
+}
+/* line 15, ../sass/components/_buttons.scss */
+.btn-sketch:hover {
+  background-color: #f9fafc;
+  color: #b1babf;
+  border: solid 1px #ced7e0;
+}
+
+/* line 22, ../sass/components/_buttons.scss */
+.btn-primary, .btn-primary:focus {
+  background-color: #b1babf;
+  color: white;
+  border-color: transparent;
+}
+/* line 27, ../sass/components/_buttons.scss */
+.btn-primary:hover, .btn-primary:focus:hover {
+  background-color: #6e797f;
+  color: white;
+  border-color: transparent;
+}
+
+/* line 34, ../sass/components/_buttons.scss */
 .btn-social {
-  width: 66px;
-  margin-right: 6px;
+  width: 48px;
+  margin-right: 8px;
 }
 
 /* line 3, ../sass/components/_collage.scss */
-#collage .container-fluid, #collage .col-md-8, #collage .col-md-4, #collage .col-md-6, #collage .col-md-12 {
+.collage .container-fluid, .collage .col-md-8, .collage .col-md-4, .collage .col-md-6, .collage .col-md-12 {
   padding: 0;
 }
 /* line 7, ../sass/components/_collage.scss */
-#collage .height-50 {
+.collage .height-50 {
   height: 30vh;
   position: relative;
   min-height: 400px;
@@ -9548,30 +9547,35 @@ footer a:hover {
   background-size: 110% auto;
   background-repeat: no-repeat;
   background-position: center center;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 /* line 18, ../sass/components/_collage.scss */
-#collage .height-50 span {
+.collage .height-50 span {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 100px 0;
+  padding: 110px 0;
   background-color: rgba(77, 77, 77, 0.3);
+  transition: background-color .5s ease-in-out;
 }
 /* line 28, ../sass/components/_collage.scss */
-#collage .height-50:hover {
+.collage .height-50 span:hover {
+  background-color: rgba(77, 77, 77, 0.6);
+}
+/* line 33, ../sass/components/_collage.scss */
+.collage .height-50:hover {
   background-size: 120% auto;
 }
 @media (min-width: 992px) {
   /* line 7, ../sass/components/_collage.scss */
-  #collage .height-50 {
+  .collage .height-50 {
     min-height: 300px;
   }
 }
-/* line 37, ../sass/components/_collage.scss */
-#collage .height-30 {
+/* line 42, ../sass/components/_collage.scss */
+.collage .height-30 {
   height: 20vh;
   position: relative;
   min-height: 400px;
@@ -9580,82 +9584,170 @@ footer a:hover {
   background-size: 110% auto;
   background-repeat: no-repeat;
   background-position: center center;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
-/* line 48, ../sass/components/_collage.scss */
-#collage .height-30 span {
+/* line 53, ../sass/components/_collage.scss */
+.collage .height-30 span {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 50px 0;
+  padding: 65px 0;
   background-color: rgba(77, 77, 77, 0.3);
+  transition: background-color .5s ease-in-out;
 }
-/* line 58, ../sass/components/_collage.scss */
-#collage .height-30:hover {
+/* line 63, ../sass/components/_collage.scss */
+.collage .height-30 span:hover {
+  background-color: rgba(77, 77, 77, 0.6);
+}
+/* line 68, ../sass/components/_collage.scss */
+.collage .height-30:hover {
   background-size: 120% auto;
 }
 @media (min-width: 992px) {
-  /* line 37, ../sass/components/_collage.scss */
-  #collage .height-30 {
+  /* line 42, ../sass/components/_collage.scss */
+  .collage .height-30 {
     min-height: 200px;
   }
 }
-/* line 67, ../sass/components/_collage.scss */
-#collage #data-countries {
-  background-image: url("../img/slug_countries.png");
+/* line 77, ../sass/components/_collage.scss */
+.collage #fav-1 {
+  background-image: url("../img/fav-1.png");
+  background-size: cover;
 }
-/* line 71, ../sass/components/_collage.scss */
-#collage #data-nonleg {
-  background-image: url("../img/slug_nonleg.png");
-}
-/* line 75, ../sass/components/_collage.scss */
-#collage #data-leg {
-  background-image: url("../img/slug_leg.png");
-}
-/* line 79, ../sass/components/_collage.scss */
-#collage #data-events {
-  background-image: url("../img/slug_events.png");
-}
-/* line 83, ../sass/components/_collage.scss */
-#collage #data-assemblies {
-  background-image: url("../img/slug_assemblies.png");
+/* line 82, ../sass/components/_collage.scss */
+.collage #fav-2 {
+  background-image: url("../img/fav-2.png");
+  background-size: cover;
 }
 /* line 87, ../sass/components/_collage.scss */
-#collage #data-officials {
-  background-image: url("../img/slug_officials.png");
+.collage #fav-3 {
+  background-image: url("../img/fav-3.png");
+  background-size: cover;
+}
+/* line 92, ../sass/components/_collage.scss */
+.collage #fav-4 {
+  background-image: url("../img/fav-4.png");
+  background-size: cover;
+}
+/* line 97, ../sass/components/_collage.scss */
+.collage #fav-5 {
+  background-image: url("../img/fav-5.png");
+  background-size: cover;
+}
+/* line 102, ../sass/components/_collage.scss */
+.collage #fav-6 {
+  background-image: url("../img/fav-6.png");
+  background-size: cover;
 }
 
 /* line 1, ../sass/components/_nav.scss */
-.nav-pills {
+#home-nav {
   font-family: 'Merriweather', serif;
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: -2px;
 }
 /* line 7, ../sass/components/_nav.scss */
-.nav-pills li a {
+#home-nav li a {
   color: #b1babf;
-  padding: 50px 0px;
+  padding: 24px 0px;
   border-radius: 0;
 }
 /* line 12, ../sass/components/_nav.scss */
-.nav-pills li a:hover {
+#home-nav li a:hover {
   background: transparent;
   color: #6e797f;
-  border-bottom: solid 3px #6e797f;
+  border: none;
 }
-/* line 19, ../sass/components/_nav.scss */
-.nav-pills li.active a {
-  background: transparent;
-  color: #6e797f;
-  border-bottom: solid 3px #6e797f;
+@media (min-width: 768px) {
+  /* line 12, ../sass/components/_nav.scss */
+  #home-nav li a:hover {
+    border-bottom: solid 3px #6e797f;
+  }
 }
-/* line 24, ../sass/components/_nav.scss */
-.nav-pills li.active a:hover {
+@media (min-width: 768px) {
+  /* line 7, ../sass/components/_nav.scss */
+  #home-nav li a {
+    padding: 50px 0;
+  }
+}
+/* line 27, ../sass/components/_nav.scss */
+#home-nav li.active a {
   background: transparent;
   color: #6e797f;
+  border: none;
+}
+/* line 32, ../sass/components/_nav.scss */
+#home-nav li.active a:hover {
+  background: transparent;
+  color: #6e797f;
+}
+@media (min-width: 768px) {
+  /* line 27, ../sass/components/_nav.scss */
+  #home-nav li.active a {
+    border-bottom: solid 3px #6e797f;
+  }
+}
+
+/* line 43, ../sass/components/_nav.scss */
+#logo-nav {
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: -2px;
+}
+/* line 49, ../sass/components/_nav.scss */
+#logo-nav li a {
+  color: #b1babf;
+  padding: 24px 0px;
+  border-radius: 0;
+}
+/* line 54, ../sass/components/_nav.scss */
+#logo-nav li a:hover {
+  background: transparent;
+  color: #6e797f;
+  border: none;
+}
+@media (min-width: 768px) {
+  /* line 54, ../sass/components/_nav.scss */
+  #logo-nav li a:hover {
+    border-bottom: solid 3px #6e797f;
+  }
+}
+@media (min-width: 768px) {
+  /* line 49, ../sass/components/_nav.scss */
+  #logo-nav li a {
+    padding: 50px 0;
+  }
+}
+/* line 69, ../sass/components/_nav.scss */
+#logo-nav li.active a {
+  background: transparent;
+  color: #6e797f;
+  border: none;
+}
+/* line 74, ../sass/components/_nav.scss */
+#logo-nav li.active a:hover {
+  background: transparent;
+  color: #6e797f;
+}
+@media (min-width: 768px) {
+  /* line 69, ../sass/components/_nav.scss */
+  #logo-nav li.active a {
+    border-bottom: solid 3px #6e797f;
+  }
+}
+/* line 84, ../sass/components/_nav.scss */
+#logo-nav li.logo {
+  width: 4%;
+  text-align: center;
+}
+
+/* line 90, ../sass/components/_nav.scss */
+.navbar-toggle {
+  margin: 0;
 }
 
 /* line 1, ../sass/components/_images.scss */

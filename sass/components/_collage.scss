@@ -1,4 +1,4 @@
-  #collage{
+  .collage{
 
     .container-fluid, .col-md-8, .col-md-4, .col-md-6, .col-md-12{
       padding: 0;
@@ -13,7 +13,7 @@
       background-size: 110% auto;
       background-repeat: no-repeat;
       background-position: center center;
-      transition: all 1s ease-in-out;
+      transition: all .5s ease-in-out;
 
       span{
         position: absolute;
@@ -21,8 +21,13 @@
         right: 0;
         top: 0;
         bottom: 0;
-        padding: 100px 0;
+        padding: 110px 0;
         background-color: rgba(77, 77, 77, .3);
+        transition: background-color .5s ease-in-out;
+
+        &:hover{
+          background-color: rgba(77, 77, 77, .6);
+        }
       }
 
       &:hover{
@@ -43,7 +48,7 @@
       background-size: 110% auto;
       background-repeat: no-repeat;
       background-position: center center;
-      transition: all 1s ease-in-out;
+      transition: all .5s ease-in-out;
 
       span{
         position: absolute;
@@ -51,8 +56,13 @@
         right: 0;
         top: 0;
         bottom: 0;
-        padding: 50px 0;
+        padding: 65px 0;
         background-color: rgba(77, 77, 77,.3);
+        transition: background-color .5s ease-in-out;
+
+        &:hover{
+          background-color: rgba(77, 77, 77, .6);
+        }
       }
 
       &:hover{
@@ -64,28 +74,34 @@
       }
     }
 
-    #data-countries{
-      background-image: url('../img/slug_countries.png');
+    #fav-1{
+      background-image: url('../img/fav-1.png');
+      background-size: cover;
     }
 
-    #data-nonleg{
-      background-image: url('../img/slug_nonleg.png');
+    #fav-2{
+      background-image: url('../img/fav-2.png');
+      background-size: cover;
     }
 
-    #data-leg{
-      background-image: url('../img/slug_leg.png');
+    #fav-3{
+      background-image: url('../img/fav-3.png');
+      background-size: cover;
     }
 
-    #data-events{
-      background-image: url('../img/slug_events.png');
+    #fav-4{
+      background-image: url('../img/fav-4.png');
+      background-size: cover;
     }
 
-    #data-assemblies{
-      background-image: url('../img/slug_assemblies.png');
+    #fav-5{
+      background-image: url('../img/fav-5.png');
+      background-size: cover;
     }
 
-    #data-officials{
-      background-image: url('../img/slug_officials.png');
+    #fav-6{
+      background-image: url('../img/fav-6.png');
+      background-size: cover;
     }
 
   }

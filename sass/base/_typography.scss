@@ -1,11 +1,12 @@
 body{
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 p, address{
 	color: $body;
 	line-height: 1.5;
+	font-size: 1rem;
 }
 
 h1{
@@ -13,8 +14,9 @@ h1{
 	font-weight: 100;
 	text-transform: uppercase;
 	color: $dark-grey;
-	font-size: 30px;
+	font-size: 24px;
 	position: relative;
+	letter-spacing: 2px;
 
 	&.fancy{
 		padding: 0 24px;
@@ -71,22 +73,6 @@ h1, h2, h3, h4{
 
 blockquote{
 	border-left: none;
-
-	&.h4{
-		&::after{
-			display: block;
-			text-align: center;
-			height: 12px;
-		  background-image: url('../img/break.png');
-		  background-position: center center;
-		  background-repeat: no-repeat;
-		  background-size: contain;
-
-		  @media all and (-webkit-min-device-pixel-ratio: 2) {
-		    background-image: url('../img/break@2x.png');
-		  }
-		}
-	}
 }
 
 .section-break{
@@ -100,7 +86,7 @@ blockquote{
 	.break{
 		position: absolute;
 		z-index: 1;
-		top: 95px;
+		top: 86px;
 		width: 100%;
 		display: block;
 		border-bottom: solid 1px $border;

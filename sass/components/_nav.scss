@@ -1,4 +1,4 @@
-.nav-pills{
+#home-nav{
 	font-family: 'Merriweather', serif;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -6,25 +6,87 @@
 
 	li a{
 		color: $body;
-		padding: 50px 0px;
+		padding: 24px 0px;
 		border-radius: 0;
 
 		&:hover{
 			background: transparent;
 			color: $dark-grey;
-			border-bottom: solid 3px $dark-grey;
+			border: none;
+
+			@media(min-width: 768px){
+				border-bottom: solid 3px $dark-grey;
+			}
+		}
+
+		@media(min-width: 768px){
+			padding: 50px 0;
 		}
 	}
 
 	li.active a{
 		background: transparent;
 		color: $dark-grey;
-		border-bottom: solid 3px $dark-grey;
+		border: none;
 
 		&:hover{
 			background: transparent;
 			color: $dark-grey;
 		}
+
+		@media(min-width: 768px){
+			border-bottom: solid 3px $dark-grey;
+		}
+	}
+}
+
+#logo-nav{
+	font-family: 'Merriweather', serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-bottom: -2px;
+
+	li a{
+		color: $body;
+		padding: 24px 0px;
+		border-radius: 0;
+
+		&:hover{
+			background: transparent;
+			color: $dark-grey;
+			border: none;
+
+			@media(min-width: 768px){
+				border-bottom: solid 3px $dark-grey;
+			}
+		}
+
+		@media(min-width: 768px){
+			padding: 50px 0;
+		}
 	}
 
+	li.active a{
+		background: transparent;
+		color: $dark-grey;
+		border: none;
+
+		&:hover{
+			background: transparent;
+			color: $dark-grey;
+		}
+
+		@media(min-width: 768px){
+			border-bottom: solid 3px $dark-grey;
+		}
+	}
+
+	li.logo{
+		width: 4%;
+		text-align: center;
+	}
+}
+
+.navbar-toggle{
+	margin: 0;
 }
