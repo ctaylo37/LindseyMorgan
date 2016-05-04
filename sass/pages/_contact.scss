@@ -1,0 +1,54 @@
+#contact-page{
+
+	.contact-left{
+		position: relative;
+
+		p{
+			line-height: 1.2;
+		}
+
+		@media(min-width: 1024px){
+			min-height: 300px;
+		}
+	}
+
+	#return-address{
+
+		h3{
+			margin: 0;
+		}
+
+		a{
+			color: $body;
+
+			&:hover{
+				text-decoration: none;
+				color: $dark-grey;
+			}
+		}
+	}
+
+	#stamp{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 90px;
+		height: 90px;
+		background-image: url('../img/stamp.svg');
+		background-position: center center;
+		background-size: initial;
+		background-repeat: no-repeat;
+	}
+
+	form{
+		padding-bottom: 40px;
+
+		input[type=date] {
+	    color: $light-grey
+		}
+
+		input[type=date]:focus {
+	    color: $body;
+		}
+	}
+}

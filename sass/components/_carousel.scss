@@ -1,0 +1,29 @@
+#carousel-portfolio{
+
+	&::before{
+		content: url('../img/portfolio-left.svg');
+		disply: inline-block;
+		position: absolute;
+		top: 0;
+		left: -70px;
+		height: 466px;
+		width: 70px;
+	}
+
+	&::after{
+		content: url('../img/portfolio-right.svg');
+		disply: inline-block;
+		position: absolute;
+		top: 0;
+		right: -70px;
+		height: 466px;
+		width: 70px;
+	}
+}
+
+.carousel-control{
+	i{
+		position: absolute;
+		top: 50%;
+	}
+}

@@ -26,7 +26,6 @@ h1{
 			content: url('../img/fancy-left.svg');
 			display: inline-block;
 	    width: 20px;
-	    top: 2px;
 	    position: absolute;
 	    left: 0;
 	    top: -3px;
@@ -36,9 +35,22 @@ h1{
 			content: url('../img/fancy-right.svg');
 			display: inline-block;
 			width: 20px;
-	    top: 2px;
 	    position: absolute;
 	    right: 0;
+	    top: -3px;
+		}
+	}
+
+	&.fancy-left{
+		padding: 0 24px;
+		display: inline-block;
+
+		&::before{
+			content: url('../img/fancy-left.svg');
+			display: inline-block;
+	    width: 20px;
+	    position: absolute;
+	    left: 0;
 	    top: -3px;
 		}
 	}
@@ -60,12 +72,42 @@ h3{
 h4{
 	font-family: 'Merriweather', serif;
 	font-weight: 100;
-	color: $body;
+	color: $dark-grey;
 	font-size: 18px;
-	line-height: 2;
+	position: relative;
+
+	&.fancy{
+		padding: 0 24px;
+		display: inline-block;
+
+		&::before{
+			content: url('../img/fancy-left.svg');
+			display: inline-block;
+	    width: 18px;
+	    top: 0;
+	    position: absolute;
+	    left: 0;
+		}
+
+		&::after{
+			content: url('../img/fancy-right.svg');
+			display: inline-block;
+			width: 18px;
+	    top: 0;
+	    position: absolute;
+	    right: 0;
+		}
+	}
 }
 
-h1, h2, h3, h4{
+h5{
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	color: $dark-grey;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5{
 	&.light{
 		color: $paper;
 	}
@@ -73,23 +115,55 @@ h1, h2, h3, h4{
 
 blockquote{
 	border-left: none;
+
+	h4{
+		line-height: 2;
+		color: $body;
+	}
 }
 
 .section-break{
 	position: relative;
 
-	h1{
+	h1, h2, h3, h4{
 		z-index: 50;
 		background: $paper;
+		position: relative;
+		display: inline-block;
 	}
 
 	.break{
 		position: absolute;
 		z-index: 1;
-		top: 86px;
 		width: 100%;
 		display: block;
 		border-bottom: solid 1px $border;
+	}
+}
+
+.h1-break{
+	.break{
+		top: 26px;
+	}
+}
+
+.h2-break{
+	h2{
+		padding: 0 6px;
+		margin-top: 0;
+	}
+	.break{
+		top: 18px;
+	}
+}
+
+.h3-break{
+	h3{
+		padding: 0 6px;
+		margin-top: 0;
+	}
+	.break{
+		top: 15px;
 	}
 }
 
@@ -105,4 +179,11 @@ blockquote{
   @media all and (-webkit-min-device-pixel-ratio: 2) {
     background-image: url('../img/underline@2x.png');
   }
+}
+
+.features{
+	li{
+		color: $body;
+		line-height: 2;
+	}
 }
