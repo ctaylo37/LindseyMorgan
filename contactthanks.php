@@ -27,7 +27,7 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 
-<body id="contact-page">
+<body id="thanks-page">
 
 	<div class="row nav-bordered">
 		<div class="container">
@@ -54,70 +54,10 @@
 	<div class="container">
 		
 		<div class="row pad-top-60">
-			<div id="contact-card" class="card">
-				<div class="row card-inner">
-					<div class="col-md-6 contact-left">
-						<div id="contact-instructions" class="row hidden-xs hidden-sm">
-							<div class="col-md-5">
-								<p><b>F</b>ill out the form to the right and we will be in touch shortly.</p>
-							</div>
-						</div>
-						<div id="return-address" class="row hidden-xs hidden-sm pad-top-100">
-							<div class="col-md-offset-1 col-md-8">
-								<h2>Lindsey Morgan Events</h2>
-								<p>P.O. Box 634 Devon, PA 19333 </br>610.719.7248 </br>owner@lindseymorganevents.com</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-5 contact-right">
-						<div id="stamp"></div>
-						<div class="row pad-top-60">
-							<h1 class="fancy-left">Contact Us</h1>
-							<p><small>All fields are required</small></p>
-						</div>
-						<div class="row">
-							<form method="post" action="form-mail.php">
-
-									<div class="custom-input-group">
-                    <input type="text" name="Name" id="Name" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Name</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="email" name="Email" id="Email" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Email</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="date" name="Date" id="Date" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Date of Event</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="text" name="Budget" id="Budget" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Total Wedding Budget</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="text" name="Message" id="Message" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Message</label>
-                  </div>
-
-                  <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-primary" />
-
-							</form>
-						</div>
-					</div>
+			<div id="thanks-card" class="card">
+				<div class="row card-inner text-center">
+					<h2 class="pad-top-100">Thanks for contacting us.  We will be in touch shortly.</h2>
+					<p>If you don't hear from us, you can also email us directly at owner@lindseymorganevents.com</p>
 				</div>
 			</div>
 		</div>
