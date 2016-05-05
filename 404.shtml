@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rustic Vintage Event Design and Weddings (Philadelphia)</title>
+	<meta name="description" content="Lindsey Morgan Event Design is a full service event design copany serving the greater philadelphia and suburban areas.  We provide a rustic vintage design approach.">
+	<meta name="keywords" content="rustic event design, vintage event design, event design philadelphia, philadelphia event design, rustic event philadelphia, vintage event philadelphia, rustic furniture rental, vintage furniture rental, rustic furniture rental philadelphia, vintage furniture rentals philadelphia, philadelphia event rental, mainline event rentals, mainline rustic, mainline vintage, mainline events">
+	<meta name="robots" content="index,follow">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<style type="text/css">
+		#hero{
+			height: 100vh;
+			padding: 200px 0;
+			background-color: #85929b;
+			margin: 0;
+			display: block;
+			text-align: center;
+		}
+
+		h1{
+			font-family: 'Merriweather', serif;
+			color: #ffffff;
+			font-size: 36px;
+			margin: 20px 0;
+		}
+
+		h1.big{
+			font-size: 200px;
+			font-weight: 700;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="hero">
+		<h1 class="big">404</h1>
+		<h1>Looks like something went wrong.  Check back soon.</h1>
+	</div>
+
+</body>
+</html>

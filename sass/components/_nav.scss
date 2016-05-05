@@ -58,6 +58,26 @@
 		}
 	}
 
+	li.logo a{
+		color: transparent;
+		padding: 0;
+		border-radius: 0;
+
+		&:hover{
+			background: transparent;
+			color: transparent;
+			border: none;
+
+			@media(min-width: 768px){
+				border-bottom: none;
+			}
+		}
+
+		@media(min-width: 768px){
+			padding: 0;
+		}
+	}
+
 	li.active a{
 		background: transparent;
 		color: $dark-grey;
@@ -71,11 +91,6 @@
 		@media(min-width: 768px){
 			border-bottom: solid 3px $dark-grey;
 		}
-	}
-
-	li.logo{
-		width: 4%;
-		text-align: center;
 	}
 }
 
