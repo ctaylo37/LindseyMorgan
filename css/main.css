@@ -10187,10 +10187,6 @@ footer a:hover {
   padding-bottom: 40px;
 }
 /* line 46, ../sass/pages/_contact.scss */
-#contact-page form input[type=date] {
-  color: #f9fafc;
-}
-/* line 50, ../sass/pages/_contact.scss */
-#contact-page form input[type=date]:focus {
-  color: #b1babf;
+#contact-page form .custom-input-group label {
+  top: 0;
 }
