@@ -44,7 +44,7 @@
 			  <li role="presentation"><a href="about.html">About Us</a></li>
 			  <!-- <li role="presentation"><a href="portfolio.html">Portfolio</a></li> -->
 			  <li role="presentation"><a href="services.html">Services</a></li>
-			  <li role="presentation" class="logo hidden-xs hidden-sm"><a href="index.html"><img src="img/logo.png" width="260" height="75" alt="Lindsey Morgan Events Logo" title="Lindsey Morgan Events Logo"></a></li>
+			  <li role="presentation" class="logo hidden-xs hidden-sm"><a href="index.html"><img src="img/logo.svg" width="310" height="90" alt="Lindsey Morgan Events Logo" title="Lindsey Morgan Events Logo"></a></li>
 			  <li role="presentation"><a href="investment.html">Investment</a></li>
 			  <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
 			</ul>

@@ -8821,6 +8821,11 @@ button.close {
   padding: 18px;
 }
 
+/* line 13, ../sass/utils/_quick-classes.scss */
+.marg-bottom-24 {
+  margin-bottom: 24px;
+}
+
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -9327,43 +9332,6 @@ h1 {
   position: relative;
   letter-spacing: 4px;
 }
-/* line 21, ../sass/base/_typography.scss */
-h1.fancy {
-  padding: 0 24px;
-  display: inline-block;
-}
-/* line 25, ../sass/base/_typography.scss */
-h1.fancy::before {
-  content: url("../img/fancy-left.svg");
-  display: inline-block;
-  width: 20px;
-  position: absolute;
-  left: 0;
-  top: -3px;
-}
-/* line 34, ../sass/base/_typography.scss */
-h1.fancy::after {
-  content: url("../img/fancy-right.svg");
-  display: inline-block;
-  width: 20px;
-  position: absolute;
-  right: 0;
-  top: -3px;
-}
-/* line 44, ../sass/base/_typography.scss */
-h1.fancy-left {
-  padding: 0 24px;
-  display: inline-block;
-}
-/* line 48, ../sass/base/_typography.scss */
-h1.fancy-left::before {
-  content: url("../img/fancy-left.svg");
-  display: inline-block;
-  width: 20px;
-  position: absolute;
-  left: 0;
-  top: -3px;
-}
 
 /* line 59, ../sass/base/_typography.scss */
 h2, h3 {
@@ -9388,29 +9356,6 @@ h4 {
   color: #6e797f;
   font-size: 18px;
   position: relative;
-}
-/* line 79, ../sass/base/_typography.scss */
-h4.fancy {
-  padding: 0 24px;
-  display: inline-block;
-}
-/* line 83, ../sass/base/_typography.scss */
-h4.fancy::before {
-  content: url("../img/fancy-left.svg");
-  display: inline-block;
-  width: 18px;
-  top: 0;
-  position: absolute;
-  left: 0;
-}
-/* line 92, ../sass/base/_typography.scss */
-h4.fancy::after {
-  content: url("../img/fancy-right.svg");
-  display: inline-block;
-  width: 18px;
-  top: 0;
-  position: absolute;
-  right: 0;
 }
 
 /* line 103, ../sass/base/_typography.scss */
@@ -10125,33 +10070,37 @@ footer a:hover {
 }
 
 /* line 3, ../sass/pages/_contact.scss */
+#contact-page input {
+  border-radius: 0!important;
+}
+/* line 7, ../sass/pages/_contact.scss */
 #contact-page .contact-left {
   position: relative;
 }
-/* line 6, ../sass/pages/_contact.scss */
+/* line 10, ../sass/pages/_contact.scss */
 #contact-page .contact-left p {
   line-height: 1.2;
 }
 @media (min-width: 1024px) {
-  /* line 3, ../sass/pages/_contact.scss */
+  /* line 7, ../sass/pages/_contact.scss */
   #contact-page .contact-left {
     min-height: 300px;
   }
 }
-/* line 17, ../sass/pages/_contact.scss */
+/* line 21, ../sass/pages/_contact.scss */
 #contact-page #return-address h3 {
   margin: 0;
 }
-/* line 21, ../sass/pages/_contact.scss */
+/* line 25, ../sass/pages/_contact.scss */
 #contact-page #return-address a {
   color: #b1babf;
 }
-/* line 24, ../sass/pages/_contact.scss */
+/* line 28, ../sass/pages/_contact.scss */
 #contact-page #return-address a:hover {
   text-decoration: none;
   color: #6e797f;
 }
-/* line 31, ../sass/pages/_contact.scss */
+/* line 35, ../sass/pages/_contact.scss */
 #contact-page #stamp {
   position: absolute;
   top: 0;
@@ -10163,11 +10112,11 @@ footer a:hover {
   background-size: initial;
   background-repeat: no-repeat;
 }
-/* line 43, ../sass/pages/_contact.scss */
+/* line 47, ../sass/pages/_contact.scss */
 #contact-page form {
   padding-bottom: 40px;
 }
-/* line 46, ../sass/pages/_contact.scss */
+/* line 50, ../sass/pages/_contact.scss */
 #contact-page form .custom-input-group label {
   top: 0;
 }
