@@ -15,7 +15,7 @@
 		opacity: 0;
 		transition: opacity ease-in-out .2s;
 		text-align: center;
-		padding: 100px 0;
+		padding-top: calc(50% - 16px);
 		text-decoration: none;
 
 		&:hover{
