@@ -62,187 +62,82 @@
 		<div class="curly-top"></div>
 	</div>
 
+	<div class="row">
+		<div class="container">
+			<div class="row navbar-header pad-18">
+	      <button type="button" class="btn btn-lg btn-block btn-primary navbar-toggle collapsed" data-toggle="collapse" data-target="#home-nav" aria-expanded="false">
+	        Menu
+	      </button>
+	    </div>
+			<ul id="home-nav" class="nav nav-pills nav-justified collapse navbar-collapse">
+			  <!-- <li role="presentation" class="active"><a href="index.html">Home</a></li> -->
+			  <li role="presentation"><a href="about.html">About Us</a></li>
+			  <!-- <li role="presentation"><a href="portfolio.html">Portfolio</a></li> -->
+			  <li role="presentation"><a href="services.html">Services</a></li>
+			  <li role="presentation"><a href="investment.html">Investment</a></li>
+			  <li role="presentation"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
 	<div class="container">
 		
-		<div class="row text-center pad-top-60">
-			<div class="section-break h1-break">
-				<h1 class="fancy">Our Story</h1>
-				<div class="break"></div>
-			</div>
-		</div>
-
 		<div class="row pad-top-60">
-			<div class="col-md-5">
-				<h2>Hi I'm Lindsey</h2>
-				<p>As the owner of Lindsey Morgan Event Design, I have a passion for designing weddings that are unique works of art. I have always been drawn to antiques, fresh flowers, and lush fabrics. I can frequently be found strolling through flea markets, or scouring antique shops for forgotten treasures. My days often involve reupholstering tufted chairs, polishing vintage silver, or mixing and matching 19th century table linens. I believe that it’s the details that make a wedding truly one of a kind.</p>
-				<p>I endeavor to establish a close relationship with my clients, working with each couple to design the wedding they’ve always dreamt of.  Every wedding is an expression of a couple’s love, and I strive to tell their story through my designs.</p>
-				</br>
-			</div>
-			<div class="col-md-offset-1 col-md-6">
-				<img src="img/about-lindsey.png" alt="Picture of Lindsey" title="Meet Lindsey">
-			</div>
-		</div>
-
-		<div class="row pad-top-60">
-			<div class="col-md-12">
-				<img src="img/about-lindsey-action.png" alt="Picture of Lindsey working" title="Lindsey in action">
-			</div>
-		</div>
-
-		<div class="row text-center pad-top-60">
-			<div class="section-break h1-break">
-				<h1 class="fancy">What We Believe</h1>
-				<div class="break"></div>
-			</div>
-		</div>
-
-		<div class="row pad-top-60">
-			<div class="col-md-6">
-				<img src="img/about-mission.png" alt="Image of sourced goods" title="Our mission">
-			</div>
-			<div class="col-md-6 text-center">
-				<img src="img/CircleLogo.png" alt="Lindsey Morgan Event Design circle logo" title="Lindsey Morgan Event Design circle logo" class="hidden-xs hidden-sm">
+			<div class="col-md-6 text-center">	<!-- Intro Quote -->
+				<img src="img/CircleLogo.png" alt="Lindsey Morgan Event Design circle logo" title="Lindsey Morgan Event Design circle logo">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<blockquote>
-							<h4>“We believe that every love story is one of a kind, so every wedding should be one of a kind.”</h4>
+							<h4>“It’s the details that make a wedding truly one of a kind.”</h4>
 							<h3>Lindsey</h3>
 						</blockquote>
 					</div>
 				</div>
 			</div>
+			<div class="col-md-6 text-center">
+				<img src="img/home-feature-1.png" alt="Bride holding boquet of flowers" title="Bride holding boquet of flowers">
+			</div>
 		</div>
 
 		<div class="row text-center pad-top-60">
 			<div class="section-break h1-break">
-				<h1 class="fancy">A Few of Our Favorite Things</h1>
+				<h1 class="fancy">Services</h1>
 				<div class="break"></div>
 			</div>
 		</div>
 
-		<div class="row text-center collage pad-top-60"> <!-- Data Collage -->
-			<div class="col-md-8">
-				<div class="row">
-					<div id="fav-1" class="col-md-6 height-50">
-						<span>
-							<h2 class="light">Old Books</h2>
-						</span>
-					</div>
-					<div id="fav-2" class="col-md-6 height-50">
-						<span>
-							<h2 class="light">Silver</h2>
-						</span>
-					</div>
+		<div id="services-home" class="row pad-top-60">
+			<div class="col-md-4">
+				<div class="learn-more-image">
+					<img src="img/service-1.png" alt="Full Service Event Design" title="Full Service Event Design">
+					<a href="services.html#service-1" class="learn-more">
+						<h2 class="light">Learn More</h2>
+					</a>
 				</div>
-				<div class="row">
-					<div id="fav-3" class="col-md-12 height-50">
-						<span>
-							<h2 class="light">Sparklers</h2>
-						</span>	
-					</div>
-				</div>
+				<h2>Full Service Event Design</h2>
+				</br>
 			</div>
 			<div class="col-md-4">
-				<div class="row">
-					<div id="fav-4" class="col-md-12 height-30">
-						<span>
-							<h2 class="light">Sugar</h2>
-						</span>
-					</div>
+				<div class="learn-more-image">
+					<img src="img/service-2.png" alt="Vintage furniture rentals" title="Vintage furniture rentals">
+					<a href="services.html#service-2" class="learn-more">
+						<h2 class="light">Learn More</h2>
+					</a>
 				</div>
-				<div class="row">
-					<div id="fav-5" class="col-md-12 height-30">
-						<span>
-							<h2 class="light">Chippy Paint</h2>
-						</span>	
-					</div>
-				</div>
-				<div class="row">
-					<div id="fav-6" class="col-md-12 height-30">
-						<span>
-							<h2 class="light">Barns</h2>
-						</span>
-					</div>
-				</div>
+				<h2>Vintage Furniture Rentals</h2>
+				</br>
 			</div>
-		</div> <!-- End Data Collage -->
-
-		<div class="row text-center pad-top-60">
-			<div class="section-break h1-break">
-				<h1 class="fancy">Contact Us</h1>
-				<div class="break"></div>
+			<div class="col-md-4">
+				<div class="learn-more-image">
+					<img src="img/service-3.png" alt="One of a kind details" title="One of a kind details">
+					<a href="services.html#service-3" class="learn-more">
+						<h2 class="light">Learn More</h2>
+					</a>
+				</div>
+				<h2>Floral Design</h2>
+				</br>
 			</div>
 		</div>
-
-		<div class="row pad-top-60">
-			<div id="contact-card" class="card">
-				<div class="row card-inner">
-					<div class="col-md-6 contact-left">
-						<div id="contact-instructions" class="row hidden-xs hidden-sm">
-							<div class="col-md-5">
-								<p><b>F</b>ill out the form to the right and we will be in touch shortly.</p>
-							</div>
-						</div>
-						<div id="return-address" class="row hidden-xs hidden-sm pad-top-100">
-							<div class="col-md-offset-1 col-md-9">
-								<h2>Lindsey Morgan Event Design</h2>
-								<p>P.O. Box 634 Devon, PA 19333 </br>610.719.7248 </br>owner@lindseymorganevents.com</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-5 contact-right">
-						<div id="stamp"></div>
-						<div class="row pad-top-60">
-							<h1 class="fancy-left">Contact Us</h1>
-							<p><small>All fields are required</small></p>
-						</div>
-						<div class="row">
-							<form method="post" action="form-mail.php">
-
-									<div class="custom-input-group">
-                    <input type="text" name="Name" id="Name" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Name</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="email" name="Email" id="Email" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Email</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="date" name="Date" id="Date" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Date of Event</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="text" name="Budget" id="Budget" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Total Wedding Budget</label>
-                  </div>
-
-                  <div class="custom-input-group">
-                    <input type="text" name="Message" id="Message" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label>Message</label>
-                  </div>
-
-                  <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-primary" />
-
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 	</div>
 	
 	<footer>
@@ -272,7 +167,7 @@
 					<a href="mailto:owner@lindseymorganevents.com?" class="underline">owner@lindseymorganevents.com</a></br>
 				</div>
 				<div class="col-md-4 text-center">
-					<!-- <a href="contact.html" class="btn btn-block btn-primary btn-lg">Request A Consultation</a> </br> -->
+					<a href="contact.html" class="btn btn-block btn-primary btn-lg">Request A Consultation</a> </br>
 					<a href="https://www.facebook.com/Lindsey-Morgan-Event-Design-1727757700825207/" target="_blank" class="btn btn-sketch btn-lg btn-social"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook
 					</a>
 					<a href="https://www.instagram.com/lindseymorganeventdesign/" class="btn btn-sketch btn-lg btn-social" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram
